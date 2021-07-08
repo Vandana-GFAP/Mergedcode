@@ -1,0 +1,68 @@
+.render-input {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+.render-input > label {
+  font-size: 1rem;
+  color: #5f6162;
+}
+
+.render-input > input {
+  outline: none;
+  border: solid #9d9d9d;
+  border-width: 0 0 0.1rem 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.profile > img {
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.profile > label {
+  cursor: pointer;
+}
+
+.profile > input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.kyc-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 2rem;
+  padding: 0 0 1rem 0;
+  border: solid #e5e5e5;
+  border-width: 0 0 0.1rem 0;
+}
+
+.kyc-icon > div > img {
+  margin-right: 0.3rem;
+}
+
+.kyc-icon > div > p {
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #477cc6;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+}

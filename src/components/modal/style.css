@@ -1,0 +1,145 @@
+.closeBtn {
+  opacity: 1;
+}
+.customStyle {
+  /* margin: 0 1rem; */
+  border-radius: 1.25rem;
+  border-color: #477cc6;
+}
+.change_text {
+  font-size: 1.25rem;
+  color: #4465a9;
+  text-align: center;
+}
+.input_fields {
+  outline: none;
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1px solid #E4E3E3;
+  border-style: solid;
+  height: 2.5rem;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.input_field{
+  outline: none;
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1px solid #E4E3E3;
+  font-size: 17px;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.otp_txt {
+  font-size: 0.938rem;
+  color: #7785a3;
+  text-align: center;
+  margin-bottom: 0.625rem;
+}
+.confirm_texxt {
+  font-size: 0.9rem;
+  color: #6d6d6d;
+  text-align: center;
+}
+.confirmation_text{
+  font-size:1.3rem;
+  color: #6d6d6d;
+  text-align: center;
+  padding:10px;
+}
+.confirmatn_div {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+.confirm_sectn {
+  background-color: #477cc6;
+  padding: 0 1.563rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+.confirmation_img{
+  width:30px;
+  height:30px;
+}
+.confirmation_block{
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+.confirm_txt {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.confirm_txt_no {
+  font-size: 1.25rem;
+  color: #477cc6;
+}
+.confirm_sectno {
+  background-color: #ffffff;
+  padding: 0 1.563rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  border-color: #4465a9;
+  border-style: solid;
+  border-width: 1px;
+}
+.forgot_sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.forGot_txt {
+  color: #a2a2a2;
+  font-size: 0.938rem;
+}
+.forGot_link {
+  color: #477cc6;
+  font-size: 0.938rem;
+  cursor: pointer;
+}
+.note_section {
+  display: flex;
+  width: 100%;
+}
+.note-txt {
+  color: #585757;
+  font-size: 0.938rem;
+  margin-right: 0.313rem;
+}
+.note-detail {
+  color: #a2a2a2;
+  font-size: 0.938rem;
+}
+.error_validate {
+  font-size: 0.625rem;
+  font-style: italic;
+  color: red;
+  margin-top: 0.625rem;
+  text-align: center;
+}
+.btn_section {
+  margin-top: 1.25rem;
+}
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+@media (min-width: 801px) {
+  .customStyle {
+    margin: 0 2.5rem;
+  }
+
+}

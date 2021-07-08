@@ -1,0 +1,48 @@
+.slide-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem;   
+}
+
+.slider_01{
+    -webkit-appearance: none;
+  width: 100%;
+  height: 6px;
+  /* background: #2694e3; */
+  border-radius: 5px;
+  outline: none;
+  /* opacity: 0.7; */
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s; 
+}
+.slider_01::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 6px;
+height: 15px;
+    background: #6ebae6;
+    border-radius: 5px;
+    /* cursor: pointer; */
+  }
+  
+  .slider_01::-moz-range-thumb {
+    width: 6px;
+    height: 15px;
+    background: #6ebae6;
+    border-radius: 5px;
+  }
+  .utilized_limit{
+    margin-top: 0.625rem;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;  
+  }
+
+  .card-balance_text{
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #FFFFFF;   
+  }

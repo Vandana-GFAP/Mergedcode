@@ -1,0 +1,68 @@
+.main_card_img {
+  height: 12.313rem;
+  width: 20.25rem;
+  border-radius: 1.25rem;
+  padding: 1.313rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 6px 1px;
+}
+.chip_img {
+  position: relative;
+  top: 17px;
+}
+.card_num_style {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+  top: 1.938rem;
+  letter-spacing: 2;
+}
+.card_num {
+  position: relative;
+  top: 3.75rem;
+}
+.card_holder {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: Electrolize;
+  max-width: 10rem;
+}
+.expiry {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.expiry_date {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: Electrolize;
+}
+.cvv {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.cvv_num {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-family: Electrolize;
+}
+.tap_view {
+  position: relative;
+  top: 3.75rem;
+}
+.tap_view_detail {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.rupay_txt {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.p-1 {
+  padding: 1.25rem!important;
+}

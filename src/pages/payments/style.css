@@ -1,0 +1,134 @@
+.payment_body {
+  background: #29529f;
+  padding: 7px 0 0 0;
+}
+.payment_section {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #fff;
+}
+.btn_colors{
+  padding: 5px 0.2rem;
+  border: 1px solid #29529f;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: grid;
+  place-items: center;
+  line-height: 1.4375rem;
+}
+
+.paymentImage {
+  padding:5px 20px;
+}
+.paymentImage > img {
+  width: 100%;
+  background-size: 100% 100%;
+}
+.box_payment {
+  background: #ffffff;
+  border: 3px solid #f3f6fa;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 0.4rem 1rem;
+  margin: 5px 10px;
+}
+._box_head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #123975;
+}
+._box_subhead {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: #989898;
+}
+.icon_style {
+  color: #305286;
+}
+
+.toggleBlock{
+  margin: 0px 15px;
+  font-size: 12px;
+  color: #123975;
+  text-align: center;
+}
+.add_Icon{
+width:45px;
+height: 45px;
+  color: #29529F;
+}
+
+.requester-body{
+  background: #29529f;
+}
+.requester_box{
+  width: 100%;
+  padding: 1.25rem 1.875rem;
+  background: #ffffff;
+  border-radius: 1.25rem 1.25rem 0px 0px;
+}
+.requester_title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #113d6b;
+}
+.requester_subtitle{
+  font-size: 12px;
+color: #989898;
+}
+.render-data {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0.5rem 1rem; */
+}
+
+.render-data > label {
+  font-size: 1rem;
+  color: #9EAEC1;
+}
+
+.render-data > input {
+  outline: none;
+  margin:10px 0;
+  height: 35px;
+  color: #133E6C;
+  padding:0 10px;
+  font-size: 15px;
+  border: 0.1px solid #E4E3E3;  
+  border-radius: 5px;
+}
+.upi_text{
+  padding:20px 0 0px 0;
+  font-size: 20px;
+line-height: 24px;
+color: #9EAEC1;
+}
+.qr_img{
+  width: '125px';
+  height: '125px';
+}
+.remove_user{
+  position:absolute;
+  margin-top:-10px;
+  margin-left:50px;
+  color:#29529F;
+  background: #F6F9FD;
+  cursor: pointer;
+}
+  .remove_user::before{
+  content:'';
+   position:absolute;
+  width:15px;
+  height:15px;
+  left:-3.5px;
+  top:5px;
+  border: 1px solid #29529F;
+  box-sizing: border-box;
+    border-radius: 50%;
+}

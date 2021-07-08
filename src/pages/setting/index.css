@@ -1,0 +1,27 @@
+.box01 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.box_heading01 {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #000000;
+}
+.box_subheading01 {
+  font-size: 0.75rem;
+  color: #989898;
+}
+.arrow_div {
+  padding-right: 17px;
+}
+.arrow_style {
+  font-size: 21px;
+  color: #29529f;
+  font-weight: 900;
+  display: flex;
+  cursor: pointer;
+}

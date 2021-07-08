@@ -1,0 +1,10 @@
+.button_block {
+  background-color: #477cc6;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+.button-label {
+  font-size: 1.125rem;
+  color: #ffffff;
+}

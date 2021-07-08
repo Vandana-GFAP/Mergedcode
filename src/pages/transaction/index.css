@@ -1,0 +1,126 @@
+.transaction_body {
+    background: #29529f;
+    padding: 7px 0 0 0;
+    /* min-height: 100vh; */
+}
+.transaction_section {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #fff;
+}
+.btn_transact {
+    padding: 5px 0.2rem;
+    border: 1px solid #29529f;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+}
+.list-box {
+    background-color: #fbfbfb;
+    border: 1px solid #e4e3e3;
+    border-radius: 1.3rem;
+}
+.all_transaction {
+    padding: 0 20px;
+}
+.title_all {
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 10px 0;
+    color: #113d6b;
+}
+.see_all_p {
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: #234f9c;
+    text-align: center;
+    cursor: pointer;
+}
+.amt_rupee {
+    font-weight: 400;
+    font-size: 1.5625rem;
+    line-height: 1.875rem;
+    color: #6d7274;
+}
+select {
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    color: #29529f;
+}
+select option:checked,
+select option:hover {
+    box-shadow: 0 0 10px 100px #000 inset;
+}
+
+/* Transaction, category & merchant css */
+.segment_body {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.segment_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.segment_activity_img {
+    object-fit: contain;
+}
+.segment_title {
+    font-size: 1.25rem;
+    color: #133e6c;
+}
+.segment_date {
+    font-size: 0.938rem;
+    color: #7c94ae;
+}
+.segment_amount {
+    font-size: 1.3rem;
+    text-align-last: end;
+}
+.segment_category {
+    font-size: 0.938rem;
+    color: #7c94ae;
+    text-align-last: end;
+}
+.line_chart {
+    max-width: auto;
+    margin: 20px 10px;
+    height: 195px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.segment_activity_listing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+.segment_category_body {
+    background: linear-gradient(
+        179.52deg,
+        #f6f9fd -10%,
+        #f6f9fd -9.98%,
+        #f4f6f9 52.82%,
+        #d1dffb 200.05%
+    );
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.segment_category_div {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}

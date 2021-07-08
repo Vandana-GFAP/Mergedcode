@@ -1,0 +1,83 @@
+.moneydiv01 {
+  background: #29529f;
+  mix-blend-mode: normal;
+}
+.moneycard01 {
+  padding: 1.25rem 1.875rem;
+  background: #ffffff;
+  border-radius: 1.25rem 1.25rem 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.money_boxtitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #113d6b;
+}
+.money_boxsubtitle {
+  margin: 1.25rem 0;
+  font-size: 1.0625rem;
+  color: #afbdcd;
+}
+.select_type_div {
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  border: solid 0.1rem #e4e3e3;
+  padding-left:20px;
+}
+.boxdata {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: #133e6c;
+  border: 1px solid #e4e3e3;
+  border-radius: 0.625rem;
+}
+.select_type-Form {
+  margin: 0;
+  padding-left:15px;
+  border: solid 1px #e4e3e3;
+  border-width: 0 0 1px 0;
+}
+.money_boxtxt01 {
+  font-size: 1.0625rem;
+  margin: 0.9375rem 0;
+  color: #afbdcd;
+}
+.amt_box {
+  font-size: 0.9375rem;
+  color: #133e6c;
+  padding: 0.313rem;
+  margin: 0px 0.625rem;
+  border: 1px solid #133e6c;
+  border-radius: 0.313rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amt_pad {
+  font-size: 0.9375rem;
+  border: 1px solid #133e6c;
+  border-radius: 0.625rem;
+  margin: 0.9375rem 0 8px 0;
+  padding: 0.438rem 1.25rem;
+  outline: none;
+  color: #133e6c;
+}
+
+.amt_pad > input {
+  outline: none;
+  width: 100%;
+  border: none;
+  margin-left: 0.5rem;
+}
+
+.section01 {
+  font-size: 0.875rem;
+  color: #535353;
+  margin: 0px 0.313rem;
+}
+.section02 {
+  font-size: 0.625rem;
+  color: #989898;
+}
+

@@ -1,0 +1,112 @@
+.Recent_box {
+  background: #ffffff;
+  border-radius: 1.25rem 1.25rem 0px 0px;
+  padding: 1.25rem;
+  margin-top: -15px;
+}
+
+.recentTitle {
+  font-family: 'Rubik';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.563rem;
+  color: #113d6b;
+}
+
+.recent_all {
+  font-family: 'Rubik';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.938rem;
+  color: #234f9c;
+  cursor:pointer;
+}
+
+/* .category_section {
+  margin: 1rem 0;
+} */
+
+.datetitle {
+  margin: 0.5rem 0;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: #9eaec1;
+}
+
+.optional_c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fbfbfb;
+  border: solid #e4e3e3;
+  border-width: 0 0 1px 0;
+  box-sizing: border-box;
+  /* border-radius: 20px; */
+  padding: 0.5rem;
+}
+
+.img_category {
+  /* width: 2.813rem; */
+  height: 2.813rem;
+  /* margin: 0.2rem 0.2rem 0.2rem 1rem; */
+  /* border-radius: 0.625rem; */
+  /* border: 1px solid #000; */
+}
+
+.category_title {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: #133e6c;
+}
+
+.category_subtitle {
+  font-size: 0.938rem;
+  color: #7c94ae;
+}
+.amt_rupee {
+  font-size: 1.563rem;
+  align-items: right;
+}
+
+.card-frozen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+  padding: 1.25rem 1rem 0.3rem 1rem;
+  border-width: 0.02rem 0.02rem 0.02rem 0.4rem;
+  border-style: solid;
+  border-color: rgb(67, 76, 158) rgb(67, 76, 158) rgb(67, 76, 158)
+    rgb(41, 82, 159);
+}
+
+.card-frozen-title {
+  font-size: 1.13rem;
+  color: #133e6c;
+}
+
+.card-frozen-subtitle {
+  font-size: 0.95rem;
+}
+
+.date-title {
+  font-size: 1.3rem;
+  color: #9eaec1;
+  margin: 1.5rem 0;
+}
+
+.list-box {
+  background-color: #fbfbfb;
+  border: 0.1rem solid #e4e3e3;
+  border-radius: 1.3rem;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.2rem;
+}

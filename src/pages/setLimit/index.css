@@ -1,0 +1,21 @@
+.set-limit-body {
+  background: #29529f;
+}
+.setbox {
+  width: 100%;
+  padding: 1.25rem 1.875rem;
+  background: #ffffff;
+  border-radius: 1.25rem 1.25rem 0px 0px;
+}
+.settitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #113d6b;
+}
+.btn_color {
+  border: 0.063rem solid #29529f;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  padding: 0.2rem 2rem;
+  font-size: 1.2rem;
+}

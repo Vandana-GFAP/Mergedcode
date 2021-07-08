@@ -1,0 +1,87 @@
+.payment_body {
+  background: #29529f;
+  padding: 10px 0 0 0;
+}
+.payment_section {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #fff;
+}
+.btn_toggling {
+  background: #ffffff;
+  border: 1px solid #29529f;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 120px;
+  padding: 2px 40px;
+  cursor: pointer;
+}
+.btn_toggling_txt {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #113d6b;
+}
+
+.paymentImage {
+  padding: 0px 25px;
+}
+.paymentImage > img {
+  width: 100%;
+  background-size: 100% 100%;
+}
+.box_payment {
+  background: #ffffff;
+  border: 1px solid #f3f6fa;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 0.4rem 1rem;
+  margin: 5px 10px;
+}
+._box_head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #123975;
+}
+._box_subhead {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: #989898;
+}
+.icon_style {
+  color: #305286;
+}
+
+.toggleBlock{
+  padding: 0px 20px;
+  font-size: 12px;
+  display:block;
+  justify-content:center;
+  align-items:center;
+}
+  .add_Icon{
+  font-size:2rem;
+  color: #29529F;
+  font-weight: 900;
+}
+.requester-body{
+  background: #29529f;
+}
+.requester_box{
+  width: 100%;
+  padding: 1.25rem 1.875rem;
+  background: #ffffff;
+  border-radius: 1.25rem 1.25rem 0px 0px;
+}
+.requester_title{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #113d6b;
+}
+.requester_subtitle{
+  font-size: 12px;
+color: #989898;
+}
